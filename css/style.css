@@ -70,6 +70,11 @@ body {
 }
 
 /*Герой*/
+.hero {
+  width: 1600px;
+  background-color: #2f303a;
+}
+
 .hero-title {
   color: var(--primary-page-color);
   font-weight: 900;
@@ -122,4 +127,35 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
+}
+
+.filter-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.filter-button-active {
+  background-color: var(--accent-color);
+  color: var(--primary-page-color);
+}
+
+.addresses-style {
+  width: 1600px;
+  background-color: #2f303a;
+}
+
+.example-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06ems;
+  color: var(--title-text-color);
+}
+
+.example-type {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }

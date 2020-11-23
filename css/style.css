@@ -47,10 +47,6 @@ body {
   color: var(--accent-color);
 }
 
-.social-links .link:active {
-  color: var(--accent-color);
-}
-
 .contacts-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;

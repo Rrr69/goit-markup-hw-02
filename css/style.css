@@ -144,7 +144,8 @@ body {
   line-height: 1.6;
 }
 
-.filter-button-active {
+.portfolio-list .filter-button:hover,
+.portfolio-list .filter-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-page-color);
 }

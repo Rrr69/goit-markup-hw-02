@@ -1,0 +1,84 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-page-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-page-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/*Шапка сайта*/
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo-second {
+  color: #000000;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*section*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*Герой*/
+.hero-title {
+  color: var(--primary-page-color);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-page-color);
+}
+
+/*Преимущества*/
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/*чем мы занимаемся*/
+.works-title {
+
+}
+
+/*наша команда*/
+.employee-name {
+  color: var(--title-text-color);
+}
+.employee-position {
+  var(--primary-text-color);
+}
+
+/*подвал*/
+.footer-address {
+}
+
+.footer-contacts {
+}
